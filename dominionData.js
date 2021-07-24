@@ -1,0 +1,136 @@
+var data = 
+[
+    //Template: {name: "", include: true, isAttack: false, isDefend: false, imageDirectory: "images/cards/"},
+    {
+        name: "base",
+        include: true,
+        cards: 
+        [
+            {name: "artisan",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/artisan.jpg"},
+            {name: "bandit",            include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/bandit.jpg"},
+            {name: "bureaucrat",        include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/bureaucrat.jpg"},
+            {name: "cellar",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/cellar.jpg"},
+            {name: "chapel",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/chapel.jpg"},
+            {name: "council room",      include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/council room.jpg"},
+            {name: "festival",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/festival.jpg"},
+            {name: "gardens",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/gardens.jpg"},
+            {name: "harbinger",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/harbinger.jpg"},
+            {name: "laboratory",        include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/laboratory.jpg"},
+            {name: "library",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/library.jpg"},
+            {name: "market",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/market.jpg"},
+            {name: "merchant",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/merchant.jpg"},
+            {name: "militia",           include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/militia.jpg"},
+            {name: "mine",              include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/mine.jpg"},
+            {name: "moat",              include: true,  isAttack: false,    isDefend: true,     isCurse: false, imageDirectory: "images/cards/base/moat.jpg"},
+            {name: "moneylender",       include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/moneylender.jpg"},
+            {name: "poacher",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/poacher.jpg"},
+            {name: "remodel",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/remodel.jpg"},
+            {name: "sentry",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/sentry.jpg"},
+            {name: "smithy",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/smithy.jpg"},
+            {name: "throne room",       include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/throne room.jpg"},
+            {name: "vassal",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/vassal.jpg"},
+            {name: "village",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/village.jpg"},
+            {name: "witch",             include: true,  isAttack: true,     isDefend: false,    isCurse: true,  imageDirectory: "images/cards/base/witch.jpg"},
+            {name: "workshop",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/base/workshop.jpg"}
+        ]
+    },
+    {
+        name: "empires",
+        include: true,
+        cards:
+        [
+            {name: "archive",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/archive.jpg"},
+            {name: "capital",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/capital.jpg"},
+            {name: "castle",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/curse.jpg"},
+            {name: "catapult-rocks",    include: true,  isAttack: true,     isDefend: false,    isCurse: true,  imageDirectory: "images/cards/empires/catapult-rocks.jpg"},
+            {name: "chariot race",      include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/chariot race.jpg"},
+            {name: "charm",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/charm.jpg"},
+            {name: "city quarter",      include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/city quarter.jpg"},
+            {name: "crown",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/crown.jpg"},
+            {name: "encampment-plunder",include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/encampment-plunder.jpg"},
+            {name: "enchantress",       include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/enchantress.jpg"},
+            {name: "engineer",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/engineer.jpg"},
+            {name: "farmers market",    include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/farmers market.jpg"},
+            {name: "forum",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/forum.jpg"},
+            {name: "gladiator-fortune", include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/gladiator-fortune.jpg"},
+            {name: "groundskeeper",     include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/groundskeeper.jpg"},
+            {name: "legionary",         include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/legionary.jpg"},
+            {name: "overlord",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/overlord.jpg"},
+            {name: "patrician-emporium",include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/patrician-emporium.jpg"},
+            {name: "royal blacksmith",  include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/royal blacksmith.jpg"},
+            {name: "sacrifice",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/sacrifice.jpg"},
+    {name: "settlers-bustling village", include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/settlers-bustling village.jpg"},
+            {name: "temple",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/temple.jpg"},
+            {name: "villa",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/villa.jpg"},
+            {name: "wild hunt",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/empires/wild hunt.jpg"}
+        ]
+    },
+    {
+        name: "intrigue",
+        include: true,
+        cards:
+        [
+            {name: "baron",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/baron.jpg"},
+            {name: "bridge",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/bridge.jpg"},
+            {name: "conspirator",       include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/conspirator.jpg"},
+            {name: "courtier",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/courtier.jpg"},
+            {name: "courtyard",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/courtyard.jpg"},
+            {name: "diplomat",          include: true,  isAttack: false,    isDefend: true,     isCurse: false, imageDirectory: "images/cards/intrigue/diplomat.jpg"},
+            {name: "duke",              include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/duke.jpg"},
+            {name: "harem",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/harem.jpg"},
+            {name: "ironworks",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/ironworks.jpg"},
+            {name: "lurker",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/lurker.jpg"},
+            {name: "masquerade",        include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/masquerade.jpg"},
+            {name: "mill",              include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/mill.jpg"},
+            {name: "mining village",    include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/mining village.jpg"},
+            {name: "minion",            include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/minion.jpg"},
+            {name: "nobles",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/nobles.jpg"},
+            {name: "patrol",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/patrol.jpg"},
+            {name: "pawn",              include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/pawn.jpg"},
+            {name: "replace",           include: true,  isAttack: true,     isDefend: false,    isCurse: true,  imageDirectory: "images/cards/intrigue/replace.jpg"},
+            {name: "secret passage",    include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/secret passage.jpg"},
+            {name: "shanty town",       include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/shanty town.jpg"},
+            {name: "steward",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/steward.jpg"},
+            {name: "swindler",          include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/swindler.jpg"},
+            {name: "torturer",          include: true,  isAttack: true,     isDefend: false,    isCurse: true,  imageDirectory: "images/cards/intrigue/torturer.jpg"},
+            {name: "trading post",      include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/trading post.jpg"},
+            {name: "upgrade",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/upgrade.jpg"},
+            {name: "wishing well",      include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/intrigue/wishing well.jpg"}
+        ]
+    },
+    {
+        name: "seaside",
+        include: true,
+        cards:
+        [
+            {name: "ambassador",        include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/ambassador.jpg"},
+            {name: "bazaar",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/bazaar.jpg"},
+            {name: "caravan",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/caravan.jpg"},
+            {name: "cutpurse",          include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/cutpurse.jpg"},
+            {name: "embargo",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/embargo.jpg"},
+            {name: "explorer",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/explorer.jpg"},
+            {name: "fishing village",   include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/fishing village.jpg"},
+            {name: "ghost ship",        include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/ghost ship.jpg"},
+            {name: "haven",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/haven.jpg"},
+            {name: "island",            include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/island.jpg"},
+            {name: "lighthouse",        include: true,  isAttack: false,    isDefend: true,     isCurse: false, imageDirectory: "images/cards/seaside/lighthouse.jpg"},
+            {name: "lookout",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/lookout.jpg"},
+            {name: "merchant ship",     include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/merchant ship.jpg"},
+            {name: "native village",    include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/native village.jpg"},
+            {name: "navigator",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/navigator.jpg"},
+            {name: "outpost",           include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/outpost.jpg"},
+            {name: "pearl diver",       include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/pearl diver.jpg"},
+            {name: "pirate ship",       include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/pirate ship.jpg"},
+            {name: "salvager",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/salvager.jpg"},
+            {name: "sea hag",           include: true,  isAttack: true,     isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/sea hag.jpg"},
+            {name: "smugglers",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/smugglers.jpg"},
+            {name: "tactician",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/tactician.jpg"},
+            {name: "treasure map",      include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/treasure map.jpg"},
+            {name: "treasury",          include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/treasury.jpg"},
+            {name: "warehouse",         include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/warehouse.jpg"},
+            {name: "wharf",             include: true,  isAttack: false,    isDefend: false,    isCurse: false, imageDirectory: "images/cards/seaside/wharf.jpg"}
+        ]
+    }
+];
+
+const curseDirectory = "images/cards/curse.jpg";

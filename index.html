@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dominion Picker</title>
+
+        <link rel="stylesheet" type="text/css" href="dominionPickerCSS.css"> <!-- CSS Sheet -->
+    </head>
+    <body onload="setup()">
+        <h1>Dominion Card-Picker</h1>
+        
+        <div id="run" onclick="go()" onmouseover="hoverMenu(this)" onmouseout="unhoverMenu(this)">Generate!</div>
+        
+        <div id="menu">
+            <span id="showSets" class="highOptions" onclick="changeMenu(this)" onmouseover="hoverMenu(this)" onmouseout="unhoverMenu(this)">Sets</span>
+            <span id="showOptions" class="highOptions" onclick="changeMenu(this)" onmouseover="hoverMenu(this)" onmouseout="unhoverMenu(this)">Card Options</span>
+            <span id="showCards" class="highOptions" onclick="changeMenu(this)" onmouseover="hoverMenu(this)" onmouseout="unhoverMenu(this)">Cards</span>
+            <span id="resetResult" class="highOptions" onclick="changeMenu(this)" onmouseover="hoverMenu(this)" onmouseout="unhoverMenu(this)">Clear</span>
+        </div>
+
+        <div id="sets" hidden="hidden"></div> <!-- Generated, needs to be modular -->
+
+        <div id="options">
+            <ul class="optionsList">
+                <li><input id="noAttack" type="checkbox" onclick="checkCheckbox(this)">No Attack Cards</li>
+                <li><input id="noDefense" type="checkbox" onclick="checkCheckbox(this)">No Defensive Cards (if No Attacking Cards)</li>
+                <li><input id="setRandom" type="checkbox" onclick="checkCheckbox(this)">Weigh All Sets Equally</li>
+            </ul>
+        </div>
+
+        <div id="cards" hidden="hidden"></div> <!-- Must be generated, as cards differ between sets -->
+        
+        <div id="result" hidden="hidden">
+            <img id="r1" class="resultCards">
+            <img id="r2" class="resultCards">
+            <img id="r3" class="resultCards">
+            <img id="r4" class="resultCards">
+            <img id="r5" class="resultCards">
+            <!-- <br> -->
+            <img id="r6" class="resultCards">
+            <img id="r7" class="resultCards">
+            <img id="r8" class="resultCards">
+            <img id="r9" class="resultCards">
+            <img id="r10" class="resultCards">
+            <img id="curse" class="resultCards" hidden="hidden">
+        </div>
+
+        <script src="dominionPickerJS.js"></script> <!-- JS File -->
+        <script src="dominionData.js"></script> <!-- Data File -->
+    </body>
+</html>
